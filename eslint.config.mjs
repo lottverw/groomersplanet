@@ -31,8 +31,8 @@ const eslintConfig = [
         { allow: ['info', 'warn', 'trace', 'error'] },
       ],         
       'indent': ['error', 2],
-      'quotes': ['error', 'single'],
-      'semi': ['error', 'never'],
+      'quotes': ['error', 'double'],
+      'semi': ['error', 'always', { "omitLastInOneLineBlock": true}],
     },
   },
 ];
