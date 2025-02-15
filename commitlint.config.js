@@ -6,7 +6,7 @@ module.exports = {
   },
   parserPreset: {
     parserOpts: {
-      headerPattern: /^(feat|fix|chore|docs|style|refactor|test|perf|ci|build|revert): (\[GP\]) (.+) $/,
+      headerPattern: /^(feat|fix|chore|docs|style|refactor|test|perf|ci|build|revert): (\[GP\]) (.+)$/,
       headerCorrespondence: ['type', 'ticket', 'subject'],
     },
   },
