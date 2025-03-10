@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import "tailwindcss/preflight";
+@import "tailwindcss";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+@theme {
+  --font-display: "Open Sans", sans-serif; 
+
+  --color-misty-rose: #FCDFE5;
+  --color-misty-rose-900: #570818;
+  --color-misty-rose-800: #ae1030;
+  --color-misty-rose-700: #ec3156;
+  --color-misty-rose-600: #f4889d;
+  --color-misty-rose-500: #fcdfe5;
+  --color-misty-rose-400: #fde5ea;
+  --color-misty-rose-300: #fdebef;
+  --color-misty-rose-200: #fef2f4;
+  --color-misty-rose-100: #fef8fa;
+  
+  --color-coyote: #80745F;
+  --color-coyote-900: #1a1713;
+  --color-coyote-800: #342f26;
+  --color-coyote-700: #4d4639;
+  --color-coyote-600: #675d4c;
+  --color-coyote-500: #80745f;
+  --color-coyote-400: #9e917c;
+  --color-coyote-300: #b6ad9c;
+  --color-coyote-200: #cec8bd;
+  --color-coyote-100: #e7e4de;
+  
+  --color-periwinkle: #C0C0DB;
+  --color-periwinkle-900: #1e1e34;
+  --color-periwinkle-800: #3c3c69;
+  --color-periwinkle-700: #5a5a9d;
+  --color-periwinkle-600: #8d8dbd;
+  --color-periwinkle-500: #c0c0db;
+  --color-periwinkle-400: #cecee3;
+  --color-periwinkle-300: #dadaea;
+  --color-periwinkle-200: #e6e6f1;
+  --color-periwinkle-100: #f3f3f8;
+  
+  --color-bittersweet-shimmer: #C0424A;
+  --color-bittersweet-shimmer-900: #270d0f;
+  --color-bittersweet-shimmer-800: #4e1a1d;
+  --color-bittersweet-shimmer-700: #75272c;
+  --color-bittersweet-shimmer-600: #9c343b;
+  --color-bittersweet-shimmer-500: #c0424a;
+  --color-bittersweet-shimmer-400: #cd6970;
+  --color-bittersweet-shimmer-300: #da8f94;
+  --color-bittersweet-shimmer-200: #e6b4b7;
+  --color-bittersweet-shimmer-100: #f3dadb;
+}
