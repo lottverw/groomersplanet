@@ -1,0 +1,99 @@
+color: null
+fieldLayouts:
+  325c372b-703c-45bc-970c-17fbdd3c3527:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-04-01T18:22:33+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: af32c9e1-9db5-473c-9dfb-0cb25c51145a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-04-01T18:25:17+00:00'
+            elementCondition: null
+            fieldUid: fcf8296e-7679-4f49-b2af-191cb1f88c0c # Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Tekst
+            providesThumbs: false
+            required: false
+            tip: 'Advies: Hou de tekst kort maar krachting'
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c2e69d1-7a05-42ac-a385-44a860468397
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-04-01T18:25:17+00:00'
+            elementCondition: null
+            fieldUid: a170ee6e-3961-4452-86a1-a68e40df731f # ctaButton
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Knop
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c685826-c6ff-4326-b8e9-fa42a1ef8822
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-04-02T06:30:35+00:00'
+            elementCondition: null
+            fieldUid: 63e47933-3e9e-4235-9ffb-15851ce0bb32 # image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 394d9f4f-c629-44e6-bba6-d81f7e360a7c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0398364e-5fc3-4dd9-9c94-8e79c105085e
+        userCondition: null
+handle: hero
+hasTitleField: true
+icon: null
+name: 'Pagina hoofding'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

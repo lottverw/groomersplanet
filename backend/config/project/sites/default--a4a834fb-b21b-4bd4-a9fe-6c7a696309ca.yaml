@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl-BE
+name: 'Castor Groomer'
+primary: true
+siteGroup: 2cf35153-5072-445e-a2c0-9f0033109e28 # Castor Groomer
+sortOrder: 1

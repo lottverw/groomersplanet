@@ -1,0 +1,45 @@
+dateModified: 1743939624
+email:
+  fromEmail: lottedientjelieve@gmail.com
+  fromName: 'Castor Groomer'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  site:
+    hasUrls: true
+    name: site
+    settings:
+      path: '@assetsPath/uploads/site'
+    type: craft\fs\Local
+    url: '@assetsUrl/uploads/site'
+meta:
+  __names__:
+    2cf35153-5072-445e-a2c0-9f0033109e28: 'Castor Groomer' # Castor Groomer
+    13c3e668-ea49-4271-9ce3-ae47d32275c3: 'Pagina hoofding' # Pagina hoofding
+    23e3516b-6472-4242-bbc1-e13872d98943: Algemeen # Algemeen
+    24c06c0e-6a0f-4b7d-8a22-5824165c1a50: 'Pagina''s' # Pagina's
+    63e47933-3e9e-4235-9ffb-15851ce0bb32: image # image
+    85ab7567-2356-4c75-a557-45c2674d2aa6: Simple # Simple
+    309d4911-309d-47cc-a2c7-2cb19f1f237b: 'Public Schema' # Public Schema
+    10239a61-a58c-48f2-aa32-6881afa33bdb: 'Pagina inhoud' # Pagina inhoud
+    a00eee7e-6400-4d3a-92b4-f4746615c118: Pagina # Pagina
+    a4a834fb-b21b-4bd4-a9fe-6c7a696309ca: 'Castor Groomer' # Castor Groomer
+    a170ee6e-3961-4452-86a1-a68e40df731f: ctaButton # ctaButton
+    fcf8296e-7679-4f49-b2af-191cb1f88c0c: Text # Text
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Castor Groomer'
+  schemaVersion: 5.6.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

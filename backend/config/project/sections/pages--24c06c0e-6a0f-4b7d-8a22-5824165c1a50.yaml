@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: a00eee7e-6400-4d3a-92b4-f4746615c118 # Pagina
+handle: pages
+maxAuthors: 1
+name: 'Pagina''s'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  a4a834fb-b21b-4bd4-a9fe-6c7a696309ca: # Castor Groomer
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 10706d39-745c-4f5b-ad74-ceb661557bbc
+type: structure

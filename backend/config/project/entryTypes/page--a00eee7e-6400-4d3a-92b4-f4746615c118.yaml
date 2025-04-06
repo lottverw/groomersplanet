@@ -1,0 +1,67 @@
+color: null
+fieldLayouts:
+  4ed04f66-86ff-43bc-89e6-0af6cd53e509:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-04-01T18:09:34+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c83a6392-3202-49b6-bb03-963b3aa12632
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-04-01T18:22:37+00:00'
+            elementCondition: null
+            fieldUid: 10239a61-a58c-48f2-aa32-6881afa33bdb # Pagina inhoud
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 79d46e98-96e1-4647-8ea6-70a0baf630a7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9aca5b3d-c7e8-49cf-a095-26ef212c3c26
+        userCondition: null
+handle: page
+hasTitleField: true
+icon: null
+name: Pagina
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

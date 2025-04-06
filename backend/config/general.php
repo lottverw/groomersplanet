@@ -20,8 +20,11 @@ return GeneralConfig::create()
     ->preloadSingles()
     // Prevent user enumeration attacks
     ->preventUserEnumeration()
-    // Set the @webroot alias so the clear-caches command knows where to find CP resources
+    ->headlessMode(true)
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/web',
+        '@assetsUrl' => App::env('PRIMARY_SITE_URL') . '/assets',
+        '@assetsPath' => dirname(__DIR__) . '/web/assets',
     ])
+    
 ;
