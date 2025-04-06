@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import "tailwindcss/preflight";
 @import "tailwindcss";
+
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -52,4 +52,14 @@ body {
   --color-bittersweet-shimmer-300: #da8f94;
   --color-bittersweet-shimmer-200: #e6b4b7;
   --color-bittersweet-shimmer-100: #f3dadb;
+
+  --container-padding: 1rem;
+
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
